@@ -42,17 +42,22 @@
     <body>
     
     <header class="c1" id="h1" >
-        <h1>Airsoft <span>HQ</span></h1>
+        <h1><i class="fa-solid fa-gun"></i>Airsoft <span>HQ</span></h1>
+        
        
     </header>
     <nav>
-            
+        
+        <label id="hamburger" for="ch-menu">
+            <img src="resurse/imagini/Hamburger_icon.svg.png" alt="menu">
+        </label>
+        <input id="ch-menu" type="checkbox">
 
         <ul class="meniu">
             <li><div id="acasa">Acasa</div><div id="acasa-mediu"><span class="fas fa-regular fa-house"></span></div>
                 <ul>
                     <li><a href="#welcome">Bine ati venit</a></li>
-                    <li><i class="fa-solid fa-gun"></i><a href="#promotii">Promotii</a></li>
+                    </i><a href="#promotii">Promotii</a></li>
                     <li><a href="#anunturi">Anunturi</a></li>
                     <li><a href="#galerie">Galerie</a></li>
                     <li><a href="#demonstratii">Demonstratii</a></li>
@@ -247,14 +252,19 @@
         <section id="demonstratii">
             <h2>Demonstratii</h2>
             <p>Urmatoarele clipuri va vor demonstra ce inseamna sa faceti parte din echipa AirsoftHQ.</p>
-            <div class="taburi-iframe">
-            <a href="https://www.youtube.com/embed/-b1v-KSEYjM?si=zQV_T7qiYfgkqOvm" target="ifr-video">House cleaning</a>
-            <a href="https://www.youtube.com/embed/W01O-_T6KdA?si=5HZvRb_k-ibEXyE8" target="ifr-video" >Training</a>
-            <a href="https://www.youtube.com/embed/YYQ_ux2IQgE?si=XUT2apX5DrjKLUD8" target="ifr-video" >Gearing up</a><br/>
-            </div>
+            
+            <div class="container-iframe">
+                <div class="taburi-iframe">
+                <a href="https://www.youtube.com/embed/-b1v-KSEYjM?si=zQV_T7qiYfgkqOvm" target="ifr-video">House cleaning</a>
+                <a href="https://www.youtube.com/embed/W01O-_T6KdA?si=5HZvRb_k-ibEXyE8" target="ifr-video" >Training</a>
+                <a href="https://www.youtube.com/embed/YYQ_ux2IQgE?si=XUT2apX5DrjKLUD8" target="ifr-video" >Gearing up</a>
+                </div>
+              
+
 
             <iframe name="ifr-video" width="560" height="315" src="https://www.youtube.com/embed/-b1v-KSEYjM?si=zQV_T7qiYfgkqOvm" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
         <section id="index-intrebari">
             <h2>Întrebări frecvente</h2>

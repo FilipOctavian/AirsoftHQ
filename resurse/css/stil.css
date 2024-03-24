@@ -1,13 +1,4 @@
-body{
-    --culoare_text:#1E7145;
-    --culoare_border: #275316;
-    --culoare_highlight: #197070;
-    --culoare_background: #B3D7E3;
-    --spatiere: 100px;
-    padding-left: var(--spatiere);
-    padding-right: var(--spatiere);
-    background-color: var(--culoare_background);
-}
+
 
 p{
     color:var(--culoare_text);

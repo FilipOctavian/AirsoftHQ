@@ -14,7 +14,7 @@ html{
 }
 
 #grid-pagina>*{
-    outline: 2px solid var(--culoare_highlight);
+    border: 2px solid var(--culoare_highlight);
     padding: 1em;
 }
 
