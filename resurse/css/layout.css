@@ -1,0 +1,74 @@
+html{
+    font-size: 18px;
+    font-family: "Ojuju", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#grid-pagina{
+    display: grid;
+    grid-template-areas:"welcome welcome welcome welcome" 
+                        "promotii promotii promotii promotii"
+                        "evenimente tabel tabel anunturi"
+                        "lista_on  statistici status status";
+}
+
+#grid-pagina>*{
+    outline: 2px solid var(--culoare_highlight);
+    padding: 1em;
+}
+
+#welcome{ 
+    grid-area: welcome; 
+} 
+#promotii{ 
+    grid-area: promotii; 
+}
+#evenimente{
+    grid-area: evenimente;
+}
+#tabel{
+    grid-area: tabel;
+} 
+#⁠anunturi{ 
+    grid-area: anunturi; 
+}
+#lista_online{
+    grid-area: lista_on
+} 
+#statistici{ 
+    grid-area: statistici; 
+}
+#status{
+    grid-area: status;
+} 
+
+
+.intro-oferte{
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+    #grid-pagina{
+        grid-template-areas:"welcome welcome " 
+        "promotii  promotii"
+        "evenimente anunturi"
+        "tabel tabel"
+        "lista_on statistici"
+        "status status";
+    }
+
+}
+@media screen and (max-width:800px){
+    html{
+        font-size: 12px;
+    }
+    #grid-pagina{
+        display: block;
+    }
+
+}
