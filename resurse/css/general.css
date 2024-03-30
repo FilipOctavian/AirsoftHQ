@@ -7,7 +7,7 @@ body{
   --spatiere: 100px;
   padding-left: var(--spatiere);
   padding-right: var(--spatiere);
-  background-color: var(--culoare_background);
+  
 }
 
 #link-top{
@@ -22,7 +22,6 @@ body{
   text-align:center;
   border:5px dashed var(--culoare_text);
   border-radius:50%;
-  background: var(--culoare_background);
   text-decoration: none;
   transition: all 0.5s linear;
   box-shadow: 0px 0px 5px 5px black;
@@ -84,13 +83,13 @@ caption {
 }
 
 #tab-orar tbody tr:hover {
-  background-color: var(--culoare_text); /* Schimbă culoarea de background */
-  transition: background-color 0.75s ease; /* Adaugă tranziție */
+  background-color: var(--culoare_background); 
+  transition: background-color 0.75s ease; 
 }
 
 #tab-orar tbody tr:hover td {
-  font-size: 120%; /* Crește dimensiunea fontului cu 20% */
-  transition: font-size 0.75s ease; /* Adaugă tranziție */
+  font-size: 120%; 
+  transition: font-size 0.75s ease; 
 }
 
 #tab-orar thead tr {
