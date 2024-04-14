@@ -46,7 +46,7 @@ nav{
     transition: all 1s linear;
 }
 .meniu li:hover div, .meniu li:hover>a{
-    background-color:green ;
+    background-color:var(--culoare_text);
     color: var(--culoare_background)
 }
 

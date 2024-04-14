@@ -71,7 +71,7 @@ app.get("/suma/:a/:b", function(req, res){
 
 })
 
-aapp.get("favico.ico", function(req,res){
+app.get("favico.ico", function(req,res){
     afisareEroare(res, 400);
 });
 
@@ -79,9 +79,9 @@ app.get("/*.ejs", function(req,res){
     res.sendFile(path.join(__dirname,"resurse/favicon/favicon.ico"))
 });
 
-app.get(new RegExp("^\/resurse\/[A-Za-zo-0\/]*\/$"), function(req,res){
-    afisareEroare(res, 403);
-});
+//app.get(new RegExp("^\/resurse\/[A-Za-zo-0\/]*\/$"), function(req,res){
+   // afisareEroare(res, 403);
+//});
 
 app.get("/*.ejs", function(req,res){
     console.log(req.url);
@@ -116,7 +116,7 @@ app.get("/*.ejs", function(req,res){
  })
 
  function initErori(){
-    var constinut= fs.readFileSync(path.join(__dirname,"resurse\json\erori.json")).toString("utf-8");
+    var continut= fs.readFileSync(path.join(__dirname,"resurse/json/erori.json")).toString("utf-8");
     //console.log(continut);
     obGlobal.obErori=JSON.parse(continut);
     for (let eroare of obGlobal.obErori.info_erori){
