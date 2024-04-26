@@ -10,6 +10,11 @@ body{
   
 }
 
+body, h1, h2, h3, p {
+  font-family: 'Ojuju', sans-serif;
+}
+
+
 #link-top{
   position:fixed;
   bottom:0.3em;
@@ -139,4 +144,32 @@ caption {
 .taburi-iframe>a:last-child{
   margin-bottom: 0;
   
+}
+
+a{
+  color:black;
+}
+a:visited {
+  color: var(--culoare_highlight);
+}
+
+a[href^="http"]:before {
+  content: "⮳ ";
+  font-size: 1.5em;
+}
+
+a[href^="http"]:hover::before {
+  color: var(--culoare-text-selectat);
+}
+
+footer a.stil-link {
+  background-image: radial-gradient(var(--culoare-text-selectat) 0%, var(--culoare-text-selectat) 40%, transparent 80%, transparent 100%);
+  background-size: 0 0;
+  background-position: center;
+  transition: background-size 1.5s ease; /* Animarea schimbării dimensiunii */
+  text-decoration: none;
+}
+
+footer a.stil-link:hover {
+  background-size: 100% 100%; 
 }

@@ -1,9 +1,61 @@
-
-
 p{
     color:var(--culoare_text);
 }
 
 h2{
     border:2px solid var(--culoare_border);
+    
+}
+
+#text-reflectat{
+	position:absolute;
+	left:0;
+	top:100%;
+	transform-origin:0 0;
+	/*conetaza ordinea transformarilor!*/
+	transform: rotateX(180deg) skew(-45deg) scaleY(0.5) translate(10px,-25px); 
+	opacity:0.55;
+}
+
+#text{	
+	position:relative;
+}
+
+#text, #text-reflectat{
+	font-size:50px;
+	line-height:50px;
+	font-weight: bold;
+}
+
+#imagine {
+    position: relative;
+    background-image: src("resurse/imagini/imagini_header/default.jpg");
+    background-size: cover;
+    width: 536px; 
+    height: 536px;
+    filter: brightness(200%) grayscale(0);
+    transition: all 2s linear;
+}
+
+#imagine:after, #imagine:before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 1s linear;
+    opacity: 0; /* Inițial, elementele sunt transparente */
+}
+
+#imagine:hover:after {
+    background-color: black; /* c3 - presupunând că acesta este rgb(0, 0, 255) */
+    mix-blend-mode: multiply;
+    opacity: 0.6; /* La hover, elementul devine opac pentru a activa efectul */
+}
+
+#imagine:hover:before {
+    background-color: gray; /* c4 - presupunând că acesta este rgb(205, 0, 255) */
+    mix-blend-mode: screen;
+    opacity: 0.5; /* La hover, elementul devine opac pentru a activa efectul */
 }
