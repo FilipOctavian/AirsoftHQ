@@ -173,3 +173,15 @@ footer a.stil-link {
 footer a.stil-link:hover {
   background-size: 100% 100%; 
 }
+
+hr {
+  height: 20px; /* Set the height of the HR */
+  background: 
+    linear-gradient(45deg, transparent 25%, var(--culoare_highlight) 25%, var(--culoare_highlight) 50%, transparent 50%, transparent 75%), 
+    linear-gradient(-45deg, transparent 25%, var(--culoare_highlight) 25%, var(--culoare_highlight) 50%, transparent 50%, transparent 75%);
+  background-size: 20px 10px; /* Arrow width and half the HR height */
+  background-position: top, 16px bottom; /* Position the second gradient */
+  background-repeat: repeat-x;
+  border: none; /* Remove the default border */
+}
+
