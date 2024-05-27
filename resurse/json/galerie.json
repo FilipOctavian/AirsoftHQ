@@ -2,50 +2,50 @@
 	"cale_galerie":"resurse/imagini/galerie",
 	"imagini": [
 		{
-			"fisier":"briose-frisca.png",
-			"descriere":"Brioșe",
+			"fisier":"1.jpg",
+			"descriere":"Outfit Savana",
 			"luni":["martie","februarie","noiembrie","aprilie"]
 		},
 		{
-			"fisier":"clatite.png",
-			"descriere":"Clătite cu dulceață",
+			"fisier":"2.png",
+			"descriere":"Echipament esential",
 			"luni":["ianuarie","februarie","iunie"]
 			
 		},
 		{
-			"fisier":"gogosi.png",
-			"descriere":"Gogoși glazurate",
+			"fisier":"3.jpg",
+			"descriere":"Noul echipament disponibil",
 			"luni":["ianuarie","noiembrie","iunie","martie","aprilie"]
 		},
 		{
-			"fisier":"tort-scortisoara.png",
-			"descriere":"Tort cu scorțisoară",
+			"fisier":"4.jpg",
+			"descriere":"Varietate de Shotgun-uri",
 			
 			"luni":["noiembrie","aprilie"]
 		},
 		{
-			"fisier":"prajitura-ciocolata.png",
-			"descriere":"Prăjitură cu ciocolată"
+			"fisier":"5.jpg",
+			"descriere":"EOTECH HWS EXPS3™ DCR"
 		},
 		{
-			"fisier":"tarta-afine.png",
-			"descriere":"Tartă cu afine"
+			"fisier":"6.jpg",
+			"descriere":"SI MAI MULT ECHIPAMENT"
 		},
 		{
-			"fisier":"tort-trandafiri.png",
-			"descriere":"Tort special"
+			"fisier":"7.jpg",
+			"descriere":"Noul M4"
 		},
 		{
-			"fisier":"cake.jpg",
-			"descriere":"cake"
+			"fisier":"8.jpg",
+			"descriere":"Sniper de elita"
 		},
 		{
-			"fisier":"cake2.jpg",
-			"descriere":"cake2"
+			"fisier":"9.jpg",
+			"descriere":"NT-HD 4-16X50 AOGL Scope"
 		},
 		{
-			"fisier":"cake3.jpg",
-			"descriere":"cake3"
+			"fisier":"10.jpg",
+			"descriere":"Replica echipamentului Polonez"
 		}
 	]
 }

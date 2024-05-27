@@ -4,10 +4,28 @@ body{
   --culoare_highlight: #197070;
   --culoare_background: #E5D2B0;
   --culoare-text-selectat: #7D7757;
+  --culoare1:#C6EBBE;
+  --culoare2:#A9DBB8;
+  --culoare3:#323031;
+  --culoare4:#FFD5C2;
+  --culoare5:#FFDDD2;
+
+
   --spatiere: 100px;
   padding-left: var(--spatiere);
   padding-right: var(--spatiere);
   
+}
+
+body.dark{
+  --culoare_text:#f4f5f3;
+  --culoare_border: #4e4b36;
+  --culoare_highlight: #197070;
+  --culoare_background: #494339;
+  --culoare-text-selectat: #7D7757;
+  --spatiere: 100px;
+  padding-left: var(--spatiere);
+  padding-right: var(--spatiere);
 }
 
 body, h1, h2, h3, p {
